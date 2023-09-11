@@ -1,0 +1,6 @@
+# Cargar un CSS desde static
+
+# cambiar el fondo de la pagina
+# cambiar el color de la letra
+# Centrar la imagen y los textos
+# Cambiar la fuente de la letra (importar letra de google)

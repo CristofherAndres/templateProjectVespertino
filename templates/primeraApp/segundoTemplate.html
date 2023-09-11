@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recibiendo datos</title>
+</head>
+<body>
+    
+    <h1>Datos de usuario</h1>
+
+    <img src="{% static "img/Bruce.jpg" %}" alt="" srcset="" height="200px">
+
+    <ul>
+        <li> <b>Nombre: </b> {{nombre}} </li>
+        <li> <b>Apellido: </b> {{apellido}} </li>
+        <li> <b>Dirección: </b> {{direccion}} </li>
+        <li> <b>Correo: </b> {{correo}} </li>
+        <li> <b>Edad: </b> {{edad}} </li>
+    </ul>
+
+
+</body>
+</html>
